@@ -19,6 +19,7 @@ function PostProvider({ children }) {
     );
     const [searchQuery, setSearchQuery] = useState("");
 
+
     // Derived state. These are the posts that will actually be displayed
     const searchedPosts =
         searchQuery.length > 0
